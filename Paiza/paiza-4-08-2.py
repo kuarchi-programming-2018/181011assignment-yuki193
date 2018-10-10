@@ -21,7 +21,11 @@
 # おみくじプログラム
 
 import random
-line = input().rstrip()
+line = input().rstrip().sprit(“,”)
+print(line)
+number=len(line)
+result=list[random.randrange(number)]
+print(result)
 
 # 今回は自力で全部書いてみよう！
 
